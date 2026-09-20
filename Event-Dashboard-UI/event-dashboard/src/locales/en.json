@@ -463,7 +463,8 @@
     "pending": "Pending",
     "overdue": "Overdue",
     "refunded": "Refunded",
-    "failed": "Failed"
+    "failed": "Failed",
+    "paid": "Paid"
   },
   "paymentMethod": {
     "bankTransfer": "Bank Transfer",
@@ -649,5 +650,9 @@
     "paid": "Paid",
     "cancelled": "Cancelled",
     "rejected": "Rejected"
+  },
+  "services": {
+    "activate": "Activate",
+    "reject": "Reject"
   }
 }

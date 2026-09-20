@@ -463,7 +463,8 @@
     "pending": "قيد الانتظار",
     "overdue": "متأخر",
     "refunded": "مسترد",
-    "failed": "فاشل"
+    "failed": "فاشل",
+    "paid": "مدفوع"
   },
   "paymentMethod": {
     "bankTransfer": "تحويل بنكي",
@@ -649,5 +650,9 @@
     "paid": "مدفوع",
     "cancelled": "ملغى",
     "rejected": "مرفوض"
+  },
+  "services": {
+    "activate": "قبول",
+    "reject": "رفض"
   }
 }
