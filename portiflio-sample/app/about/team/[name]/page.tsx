@@ -1,13 +1,6 @@
-'use client'
-import { useParams } from "next/navigation"
+const TeamMemeberPage = async ({ params }) => {
 
-export type ParamData = {
-  name: string,
-}
-
-const TeamMemeberPage = () => {
-
-  let { name } = useParams<ParamData>()
+  let name = (await params).name
 
   return (
     <div>TeamMemeberPage: { name }</div>
