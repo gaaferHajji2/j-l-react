@@ -14,8 +14,8 @@ const items = [
   },
   {
     value: "item-2",
-    trigger: "Can I change my subscription plan?",
-    content:
+    trigger: "Can I change my subscription plan? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, libero vel. Obcaecati vero rerum debitis quia ea sequi ab sint provident corporis maiores quos earum ratione ut laborum, exercitationem architecto.",
+    content: 
       "Yes, you can upgrade or downgrade your plan at any time from your account settings. Changes will be reflected in your next billing cycle.",
   },
   {
