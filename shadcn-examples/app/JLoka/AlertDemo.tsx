@@ -6,7 +6,7 @@ import {
   AlertTitle,
 } from "@/components/ui/alert"
 
-export function AlertDemo() {
+export function AlertDemo({ balance }: { balance?: number}) {
   return (
     <div className="grid w-full max-w-md items-start gap-4">
       <Alert>
@@ -17,7 +17,7 @@ export function AlertDemo() {
           your email address.
         </AlertDescription>
       </Alert>
-      <Alert variant={"destructive"}>
+      <Alert variant={balance && balance > 0.0 ? "default" : "destructive"}>
         <InfoIcon />
         <AlertTitle>New feature available</AlertTitle>
         <AlertDescription>
