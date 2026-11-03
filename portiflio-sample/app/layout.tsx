@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/Hoc/Provider";
+import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 
 const inter = Inter({
   subsets:['latin'],
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             enableSystem
             disableTransitionOnChange
           >
+            <ResponsiveNav />
             {children}
           </ThemeProvider>
         </body>
