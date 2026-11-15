@@ -16,7 +16,7 @@ const Nav = () => {
         setNavBg(true)
       }
 
-      if(window.screenY < 90) {
+      if(window.scrollY < 90) {
         setNavBg(false)
       }
     }
@@ -27,7 +27,7 @@ const Nav = () => {
   })
 
   return (
-    <div className={`transition-all duration-500 h-[12vh] z-100 fixed w-full`}>
+    <div className={`transition-all duration-500 ${navBg ? "dark:bg-gray-800 bg-white shadow-md" : ""} h-[12vh] z-100 fixed w-full`}>
       <div className="flex items-center justify-between h-full w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO section */}
         <Logo />
