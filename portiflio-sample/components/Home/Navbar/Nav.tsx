@@ -1,7 +1,7 @@
 import Logo from "@/components/Helper/Logo"
 import ThemeToggler from "@/components/Helper/ThemeToggler"
 import { Navlinks } from "@/Constants/Constants"
-import { DownloadIcon } from "lucide-react"
+import { DownloadIcon, MenuIcon } from "lucide-react"
 import Link from "next/link"
 
 const Nav = () => {
@@ -39,6 +39,9 @@ const Nav = () => {
 
           {/* Theme Toggler */}
           <ThemeToggler />
+
+          {/* The toggler Menu */}
+          <MenuIcon className="w-8 h-8 cursor-pointer text-black dark:text-white lg:hidden" />
         </div>
       </div>
     </div>
