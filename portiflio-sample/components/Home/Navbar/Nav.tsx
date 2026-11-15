@@ -40,7 +40,7 @@ const Nav = () => {
           {/* Theme Toggler */}
           <ThemeToggler />
 
-          {/* The toggler Menu */}
+          {/* The Toggler Menu */}
           <MenuIcon className="w-8 h-8 cursor-pointer text-black dark:text-white lg:hidden" />
         </div>
       </div>
